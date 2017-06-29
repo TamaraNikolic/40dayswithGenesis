@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32FCE90E1F058DA100551305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCE90D1F058DA100551305 /* main.m */; };
+		32FCE9111F058DA100551305 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCE9101F058DA100551305 /* AppDelegate.m */; };
+		32FCE9141F058DA100551305 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCE9131F058DA100551305 /* ViewController.m */; };
+		32FCE9171F058DA100551305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FCE9151F058DA100551305 /* Main.storyboard */; };
+		32FCE9191F058DA100551305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FCE9181F058DA100551305 /* Assets.xcassets */; };
+		32FCE91C1F058DA100551305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FCE91A1F058DA100551305 /* LaunchScreen.storyboard */; };
+		32FCE9271F058DA100551305 /* _0DaysWithGensisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCE9261F058DA100551305 /* _0DaysWithGensisTests.m */; };
+		32FCE9321F058DA100551305 /* _0DaysWithGensisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCE9311F058DA100551305 /* _0DaysWithGensisUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32FCE9231F058DA100551305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FCE9011F058DA000551305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FCE9081F058DA000551305;
+			remoteInfo = 40DaysWithGensis;
+		};
+		32FCE92E1F058DA100551305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FCE9011F058DA000551305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FCE9081F058DA000551305;
+			remoteInfo = 40DaysWithGensis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32FCE9091F058DA100551305 /* 40DaysWithGensis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 40DaysWithGensis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FCE90D1F058DA100551305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32FCE90F1F058DA100551305 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32FCE9101F058DA100551305 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32FCE9121F058DA100551305 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32FCE9131F058DA100551305 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32FCE9161F058DA100551305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FCE9181F058DA100551305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FCE91B1F058DA100551305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32FCE91D1F058DA100551305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FCE9221F058DA100551305 /* 40DaysWithGensisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 40DaysWithGensisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FCE9261F058DA100551305 /* _0DaysWithGensisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0DaysWithGensisTests.m; sourceTree = "<group>"; };
+		32FCE9281F058DA100551305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FCE92D1F058DA100551305 /* 40DaysWithGensisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 40DaysWithGensisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FCE9311F058DA100551305 /* _0DaysWithGensisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0DaysWithGensisUITests.m; sourceTree = "<group>"; };
+		32FCE9331F058DA100551305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FCE9061F058DA000551305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FCE91F1F058DA100551305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FCE92A1F058DA100551305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32FCE9001F058DA000551305 = {
+			isa = PBXGroup;
+			children = (
+				32FCE90B1F058DA100551305 /* 40DaysWithGensis */,
+				32FCE9251F058DA100551305 /* 40DaysWithGensisTests */,
+				32FCE9301F058DA100551305 /* 40DaysWithGensisUITests */,
+				32FCE90A1F058DA100551305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32FCE90A1F058DA100551305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FCE9091F058DA100551305 /* 40DaysWithGensis.app */,
+				32FCE9221F058DA100551305 /* 40DaysWithGensisTests.xctest */,
+				32FCE92D1F058DA100551305 /* 40DaysWithGensisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FCE90B1F058DA100551305 /* 40DaysWithGensis */ = {
+			isa = PBXGroup;
+			children = (
+				32FCE90F1F058DA100551305 /* AppDelegate.h */,
+				32FCE9101F058DA100551305 /* AppDelegate.m */,
+				32FCE9121F058DA100551305 /* ViewController.h */,
+				32FCE9131F058DA100551305 /* ViewController.m */,
+				32FCE9151F058DA100551305 /* Main.storyboard */,
+				32FCE9181F058DA100551305 /* Assets.xcassets */,
+				32FCE91A1F058DA100551305 /* LaunchScreen.storyboard */,
+				32FCE91D1F058DA100551305 /* Info.plist */,
+				32FCE90C1F058DA100551305 /* Supporting Files */,
+			);
+			path = 40DaysWithGensis;
+			sourceTree = "<group>";
+		};
+		32FCE90C1F058DA100551305 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32FCE90D1F058DA100551305 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32FCE9251F058DA100551305 /* 40DaysWithGensisTests */ = {
+			isa = PBXGroup;
+			children = (
+				32FCE9261F058DA100551305 /* _0DaysWithGensisTests.m */,
+				32FCE9281F058DA100551305 /* Info.plist */,
+			);
+			path = 40DaysWithGensisTests;
+			sourceTree = "<group>";
+		};
+		32FCE9301F058DA100551305 /* 40DaysWithGensisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32FCE9311F058DA100551305 /* _0DaysWithGensisUITests.m */,
+				32FCE9331F058DA100551305 /* Info.plist */,
+			);
+			path = 40DaysWithGensisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32FCE9081F058DA000551305 /* 40DaysWithGensis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FCE9361F058DA100551305 /* Build configuration list for PBXNativeTarget "40DaysWithGensis" */;
+			buildPhases = (
+				32FCE9051F058DA000551305 /* Sources */,
+				32FCE9061F058DA000551305 /* Frameworks */,
+				32FCE9071F058DA000551305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 40DaysWithGensis;
+			productName = 40DaysWithGensis;
+			productReference = 32FCE9091F058DA100551305 /* 40DaysWithGensis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32FCE9211F058DA100551305 /* 40DaysWithGensisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FCE9391F058DA100551305 /* Build configuration list for PBXNativeTarget "40DaysWithGensisTests" */;
+			buildPhases = (
+				32FCE91E1F058DA100551305 /* Sources */,
+				32FCE91F1F058DA100551305 /* Frameworks */,
+				32FCE9201F058DA100551305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FCE9241F058DA100551305 /* PBXTargetDependency */,
+			);
+			name = 40DaysWithGensisTests;
+			productName = 40DaysWithGensisTests;
+			productReference = 32FCE9221F058DA100551305 /* 40DaysWithGensisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32FCE92C1F058DA100551305 /* 40DaysWithGensisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FCE93C1F058DA100551305 /* Build configuration list for PBXNativeTarget "40DaysWithGensisUITests" */;
+			buildPhases = (
+				32FCE9291F058DA100551305 /* Sources */,
+				32FCE92A1F058DA100551305 /* Frameworks */,
+				32FCE92B1F058DA100551305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FCE92F1F058DA100551305 /* PBXTargetDependency */,
+			);
+			name = 40DaysWithGensisUITests;
+			productName = 40DaysWithGensisUITests;
+			productReference = 32FCE92D1F058DA100551305 /* 40DaysWithGensisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FCE9011F058DA000551305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tamara Nikolic";
+				TargetAttributes = {
+					32FCE9081F058DA000551305 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					32FCE9211F058DA100551305 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32FCE9081F058DA000551305;
+					};
+					32FCE92C1F058DA100551305 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32FCE9081F058DA000551305;
+					};
+				};
+			};
+			buildConfigurationList = 32FCE9041F058DA000551305 /* Build configuration list for PBXProject "40DaysWithGensis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32FCE9001F058DA000551305;
+			productRefGroup = 32FCE90A1F058DA100551305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FCE9081F058DA000551305 /* 40DaysWithGensis */,
+				32FCE9211F058DA100551305 /* 40DaysWithGensisTests */,
+				32FCE92C1F058DA100551305 /* 40DaysWithGensisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32FCE9071F058DA000551305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCE91C1F058DA100551305 /* LaunchScreen.storyboard in Resources */,
+				32FCE9191F058DA100551305 /* Assets.xcassets in Resources */,
+				32FCE9171F058DA100551305 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FCE9201F058DA100551305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FCE92B1F058DA100551305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FCE9051F058DA000551305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCE9141F058DA100551305 /* ViewController.m in Sources */,
+				32FCE9111F058DA100551305 /* AppDelegate.m in Sources */,
+				32FCE90E1F058DA100551305 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FCE91E1F058DA100551305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCE9271F058DA100551305 /* _0DaysWithGensisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FCE9291F058DA100551305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCE9321F058DA100551305 /* _0DaysWithGensisUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32FCE9241F058DA100551305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FCE9081F058DA000551305 /* 40DaysWithGensis */;
+			targetProxy = 32FCE9231F058DA100551305 /* PBXContainerItemProxy */;
+		};
+		32FCE92F1F058DA100551305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FCE9081F058DA000551305 /* 40DaysWithGensis */;
+			targetProxy = 32FCE92E1F058DA100551305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32FCE9151F058DA100551305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FCE9161F058DA100551305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32FCE91A1F058DA100551305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FCE91B1F058DA100551305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32FCE9341F058DA100551305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32FCE9351F058DA100551305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32FCE9371F058DA100551305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 40DaysWithGensis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.-0DaysWithGensis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32FCE9381F058DA100551305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 40DaysWithGensis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.-0DaysWithGensis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32FCE93A1F058DA100551305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 40DaysWithGensisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.-0DaysWithGensisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/40DaysWithGensis.app/40DaysWithGensis";
+			};
+			name = Debug;
+		};
+		32FCE93B1F058DA100551305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 40DaysWithGensisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.-0DaysWithGensisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/40DaysWithGensis.app/40DaysWithGensis";
+			};
+			name = Release;
+		};
+		32FCE93D1F058DA100551305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 40DaysWithGensisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.-0DaysWithGensisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 40DaysWithGensis;
+			};
+			name = Debug;
+		};
+		32FCE93E1F058DA100551305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 40DaysWithGensisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "id.-0DaysWithGensisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 40DaysWithGensis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FCE9041F058DA000551305 /* Build configuration list for PBXProject "40DaysWithGensis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCE9341F058DA100551305 /* Debug */,
+				32FCE9351F058DA100551305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FCE9361F058DA100551305 /* Build configuration list for PBXNativeTarget "40DaysWithGensis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCE9371F058DA100551305 /* Debug */,
+				32FCE9381F058DA100551305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32FCE9391F058DA100551305 /* Build configuration list for PBXNativeTarget "40DaysWithGensisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCE93A1F058DA100551305 /* Debug */,
+				32FCE93B1F058DA100551305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32FCE93C1F058DA100551305 /* Build configuration list for PBXNativeTarget "40DaysWithGensisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCE93D1F058DA100551305 /* Debug */,
+				32FCE93E1F058DA100551305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32FCE9011F058DA000551305 /* Project object */;
+}
