@@ -40,7 +40,6 @@ internal class RecordAdapter (private val arrayList: ArrayList<String>,
                 val intent = Intent(context, PlayActivity :: class.java)
                 intent.putExtra("item", item)
                 context.startActivity(intent)
-                Log.e("tamara",""+item)
             }
         }
 
